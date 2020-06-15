@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c5c4a0c7-6bae-4ba6-a101-1290c4b45fec</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>wtfToCsvConverter.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>WLKtoJSONConverter.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>wtfToCsvConverter</Name>
+    <Name>WLK_FileConverter</Name>
     <RootNamespace>wtfToCsvConverter</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -21,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="wtfToCsvConverter.py" />
+    <Compile Include="WLKtoJSONConverter.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

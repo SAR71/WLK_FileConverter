@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "wtfToCsvConverter", "wtfToCsvConverter\wtfToCsvConverter.pyproj", "{C5C4A0C7-6BAE-4BA6-A101-1290C4B45FEC}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WLK_FileConverter", "wtfToCsvConverter\WLK_FileConverter.pyproj", "{C5C4A0C7-6BAE-4BA6-A101-1290C4B45FEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
