@@ -20,6 +20,8 @@ import six
 
 import json
 
+import os
+
 
 DASH_LARGE = 32767
 DASH_LARGE_NEGATIVE = -32768
@@ -1582,6 +1584,12 @@ def json_repr(obj):
       return repr(obj) # Don't know how to handle, convert to string
   return json.dumps(serialize(obj))
 
-WeatherFile = Importer(r"D:\Temp\WeatherStation\2020-04.wlk").import_data()
+print(json_repr(Importer(r"D:\Temp\WeatherStation\2020-04.wlk").import_data()))
 
-print(json_repr(WeatherFile))
+#directory = r'D:\Temp\WeatherStation'
+#for filename in os.listdir(directory):
+#   if filename.endswith(".wlk"):
+#       #print(os.path.join(directory, filename))
+#	   with open(directory + "\\" + filename + ".txt", "w") as text_file: print(json_repr(Importer(directory + "\\" + filename).import_data()), file=text_file)
+#   else:
+#       continue
